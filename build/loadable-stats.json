@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "hash": "267fabfa3c10257a5767",
+  "hash": "1b2e11b565a485f51223",
   "publicPath": "/mobify/bundle/development/",
   "outputPath": "C:\\Users\\cappy\\OneDrive\\Desktop\\retailappdemo\\retail-react-app-demo\\build",
   "assetsByChunkName": {
@@ -12,6 +12,9 @@
     ],
     "pages-my-new-route": [
       "pages-my-new-route.js"
+    ],
+    "pages-weather": [
+      "pages-weather.js"
     ],
     "pages-login": [
       "pages-login.js"
@@ -57,7 +60,7 @@
     {
       "type": "asset",
       "name": "vendor.js",
-      "size": 5373115,
+      "size": 5508932,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -84,7 +87,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 979074,
+      "size": 980333,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -547,6 +550,31 @@
     },
     {
       "type": "asset",
+      "name": "pages-weather.js",
+      "size": 7802,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "pages-weather.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-weather"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-weather"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
       "name": "pages-page-not-found.js",
       "size": 7198,
       "emitted": false,
@@ -700,6 +728,27 @@
       "filteredAssets": 0,
       "assetsSize": null,
       "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-weather": {
+      "name": "pages-weather",
+      "chunks": [
+        "vendor",
+        "pages-weather"
+      ],
+      "assets": [
+        {
+          "name": "vendor.js"
+        },
+        {
+          "name": "pages-weather.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -1009,6 +1058,12 @@
       "id": "pages-my-new-route",
       "files": [
         "pages-my-new-route.js"
+      ]
+    },
+    {
+      "id": "pages-weather",
+      "files": [
+        "pages-weather.js"
       ]
     },
     {
