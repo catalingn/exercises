@@ -1,11 +1,12 @@
 {
   "name": "client",
-  "hash": "267fabfa3c10257a5767",
+  "hash": "abeafa49cbc3d9b6d9d4",
   "publicPath": "/mobify/bundle/development/",
   "outputPath": "C:\\Users\\cappy\\OneDrive\\Desktop\\retailappdemo\\retail-react-app-demo\\build",
   "assetsByChunkName": {
     "main": [
-      "main.js"
+      "main.js",
+      "main.651bcb48cb5c16896d8b.hot-update.js"
     ],
     "pages-home": [
       "pages-home.js"
@@ -84,7 +85,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 979074,
+      "size": 979079,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -572,6 +573,33 @@
     },
     {
       "type": "asset",
+      "name": "main.651bcb48cb5c16896d8b.hot-update.js",
+      "size": 7019,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "651bcb48cb5c16896d8b",
+        "related": {
+          "sourceMap": "main.651bcb48cb5c16896d8b.hot-update.js.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
       "name": "pages-my-new-route.js",
       "size": 2742,
       "emitted": false,
@@ -642,6 +670,25 @@
         "_1242"
       ],
       "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "main.651bcb48cb5c16896d8b.hot-update.json",
+      "size": 90,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "651bcb48cb5c16896d8b"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
     }
   ],
   "namedChunkGroups": {
@@ -657,11 +704,14 @@
         },
         {
           "name": "main.js"
+        },
+        {
+          "name": "main.651bcb48cb5c16896d8b.hot-update.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 2,
+      "filteredAuxiliaryAssets": 3,
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -990,7 +1040,8 @@
     {
       "id": "main",
       "files": [
-        "main.js"
+        "main.js",
+        "main.651bcb48cb5c16896d8b.hot-update.js"
       ]
     },
     {
