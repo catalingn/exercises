@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "hash": "267fabfa3c10257a5767",
+  "hash": "6aa0a6fb85df200c41e2",
   "publicPath": "/mobify/bundle/development/",
   "outputPath": "C:\\Users\\cappy\\OneDrive\\Desktop\\retailappdemo\\retail-react-app-demo\\build",
   "assetsByChunkName": {
@@ -12,6 +12,9 @@
     ],
     "pages-my-new-route": [
       "pages-my-new-route.js"
+    ],
+    "pages-calculator": [
+      "pages-calculator.js"
     ],
     "pages-login": [
       "pages-login.js"
@@ -84,7 +87,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 979074,
+      "size": 980303,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -522,6 +525,31 @@
     },
     {
       "type": "asset",
+      "name": "pages-calculator.js",
+      "size": 8801,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "pages-calculator.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-calculator"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-calculator"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
       "name": "pages-registration.js",
       "size": 8237,
       "emitted": false,
@@ -695,6 +723,23 @@
       "assets": [
         {
           "name": "pages-my-new-route.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-calculator": {
+      "name": "pages-calculator",
+      "chunks": [
+        "pages-calculator"
+      ],
+      "assets": [
+        {
+          "name": "pages-calculator.js"
         }
       ],
       "filteredAssets": 0,
@@ -1009,6 +1054,12 @@
       "id": "pages-my-new-route",
       "files": [
         "pages-my-new-route.js"
+      ]
+    },
+    {
+      "id": "pages-calculator",
+      "files": [
+        "pages-calculator.js"
       ]
     },
     {
