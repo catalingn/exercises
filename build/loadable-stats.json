@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "hash": "267fabfa3c10257a5767",
+  "hash": "52fa9d4e56bfb178d39c",
   "publicPath": "/mobify/bundle/development/",
   "outputPath": "C:\\Users\\cappy\\OneDrive\\Desktop\\retailappdemo\\retail-react-app-demo\\build",
   "assetsByChunkName": {
@@ -12,6 +12,9 @@
     ],
     "pages-my-new-route": [
       "pages-my-new-route.js"
+    ],
+    "pages-newroute": [
+      "pages-newroute.js"
     ],
     "pages-login": [
       "pages-login.js"
@@ -84,7 +87,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 979074,
+      "size": 980297,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -547,6 +550,31 @@
     },
     {
       "type": "asset",
+      "name": "pages-newroute.js",
+      "size": 7658,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "pages-newroute.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-newroute"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-newroute"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
       "name": "pages-page-not-found.js",
       "size": 7198,
       "emitted": false,
@@ -695,6 +723,23 @@
       "assets": [
         {
           "name": "pages-my-new-route.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-newroute": {
+      "name": "pages-newroute",
+      "chunks": [
+        "pages-newroute"
+      ],
+      "assets": [
+        {
+          "name": "pages-newroute.js"
         }
       ],
       "filteredAssets": 0,
@@ -1009,6 +1054,12 @@
       "id": "pages-my-new-route",
       "files": [
         "pages-my-new-route.js"
+      ]
+    },
+    {
+      "id": "pages-newroute",
+      "files": [
+        "pages-newroute.js"
       ]
     },
     {
