@@ -1,18 +1,20 @@
 {
   "name": "client",
-  "hash": "abeafa49cbc3d9b6d9d4",
+  "hash": "6aa0a6fb85df200c41e2",
   "publicPath": "/mobify/bundle/development/",
   "outputPath": "C:\\Users\\cappy\\OneDrive\\Desktop\\retailappdemo\\retail-react-app-demo\\build",
   "assetsByChunkName": {
     "main": [
-      "main.js",
-      "main.651bcb48cb5c16896d8b.hot-update.js"
+      "main.js"
     ],
     "pages-home": [
       "pages-home.js"
     ],
     "pages-my-new-route": [
       "pages-my-new-route.js"
+    ],
+    "pages-calculator": [
+      "pages-calculator.js"
     ],
     "pages-login": [
       "pages-login.js"
@@ -85,7 +87,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 979079,
+      "size": 980303,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -523,6 +525,31 @@
     },
     {
       "type": "asset",
+      "name": "pages-calculator.js",
+      "size": 8801,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "pages-calculator.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-calculator"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-calculator"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
       "name": "pages-registration.js",
       "size": 8237,
       "emitted": false,
@@ -568,33 +595,6 @@
       "filteredRelated": 1,
       "chunks": [
         "pages-page-not-found"
-      ],
-      "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "main.651bcb48cb5c16896d8b.hot-update.js",
-      "size": 7019,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "651bcb48cb5c16896d8b",
-        "related": {
-          "sourceMap": "main.651bcb48cb5c16896d8b.hot-update.js.map"
-        }
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 1,
-      "chunks": [
-        "main"
       ],
       "auxiliaryChunks": []
     },
@@ -670,25 +670,6 @@
         "_1242"
       ],
       "auxiliaryChunks": []
-    },
-    {
-      "type": "asset",
-      "name": "main.651bcb48cb5c16896d8b.hot-update.json",
-      "size": 90,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "651bcb48cb5c16896d8b"
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "chunks": [],
-      "auxiliaryChunks": []
     }
   ],
   "namedChunkGroups": {
@@ -704,14 +685,11 @@
         },
         {
           "name": "main.js"
-        },
-        {
-          "name": "main.651bcb48cb5c16896d8b.hot-update.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
-      "filteredAuxiliaryAssets": 3,
+      "filteredAuxiliaryAssets": 2,
       "auxiliaryAssetsSize": null,
       "children": {},
       "childAssets": {}
@@ -745,6 +723,23 @@
       "assets": [
         {
           "name": "pages-my-new-route.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-calculator": {
+      "name": "pages-calculator",
+      "chunks": [
+        "pages-calculator"
+      ],
+      "assets": [
+        {
+          "name": "pages-calculator.js"
         }
       ],
       "filteredAssets": 0,
@@ -1040,8 +1035,7 @@
     {
       "id": "main",
       "files": [
-        "main.js",
-        "main.651bcb48cb5c16896d8b.hot-update.js"
+        "main.js"
       ]
     },
     {
@@ -1060,6 +1054,12 @@
       "id": "pages-my-new-route",
       "files": [
         "pages-my-new-route.js"
+      ]
+    },
+    {
+      "id": "pages-calculator",
+      "files": [
+        "pages-calculator.js"
       ]
     },
     {
